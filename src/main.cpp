@@ -235,7 +235,7 @@ void genUI(entt::registry& registry) {
         .text("Delete", "hack", 14);
 
     makeModeButton("Spawn", EditorMode::Spawn);
-    makeModeButton("Add Comp", EditorMode::AddComp);
+    makeModeButton("Add Comp", EditorMode::None);
 
     editorContainer.hide();
 }
